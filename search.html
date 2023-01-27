@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <iframe class="header" width="auto" height="120" name="menu" src="header.html"></iframe>
+    <div class="main">
+        <h1>検索結果:<span id="input">none</span></h1>
+        <div class="teach" id="1">
+            <h2>hello</h2>
+            <div>教員名:<span id="teachername">none</span></div>
+            <div>
+                内容:
+                <div id="content">none</div>
+            </div>
+            <div>金額:<span id="price">∞</span>円</div>
+            <div>受付期間:<span id="start">0000/00/00 00:00</span>～<span id="start">0000/00/00 00:00</span></div>
+        </div>
+    </div>
+    <iframe class="menu" width="auto" height="120" name="menu" src="menu.html"></iframe>
+    
+</body>
+<style>
+    h2{
+        margin:0
+    }
+    iframe{
+        border:none;
+        width:100%;
+    }
+    .header{
+        position:sticky;
+        top:0;
+    }
+    .menu{
+        position:sticky;
+        bottom:0;
+    }
+    .main{
+        min-height:100vh;
+    }
+    .teach{
+        border:solid 1px;
+        padding: 10px 10px;
+    }
+    .teach:hover{
+        background:#ddd;
+    }
+</style>
+</html>
