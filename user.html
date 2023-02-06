@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="./main.css">
+    <title></title>
+</head>
+<body>
+    <div class="header">
+        <a href="./index.html">
+            <div class="logo">
+            <!-- 56,40 -->
+                <img src="img/logo.png" width="140" height="100" />
+            </div>
+        </a>
+        <a href="./user.html">
+            <div class="user" id="user">
+                <img src="img/user.png" width="50" height="50" />
+            </div>
+        </a>
+    </div>
+    <div class="main">
+        <h1>個人情報</h1>
+        <div class="user_info">
+            <img src="img/user.png" width="250" height="250" />
+            <div>
+                <h2>名前：ヤマダ電機太郎</h2>
+                <h2>性別：男</h2>
+                <h2>種類：生徒</h2>
+            </div>
+        </div>
+        <h2>スケジュール</h2>
+        <div class="schedule">
+            <div class="class">
+                <div class="date">
+                    <span id="year">0000</span>/
+                    <span id="month">00</span>/
+                    <span id="day">00</span><br>
+                    <span id="hour">00</span>:
+                    <span id="min">00</span>
+                </div>
+                <div class="teach">
+                    <h3></h3>
+                    <div>教員名:<span id="teachername">none</span></div>
+                    <div>
+                        内容:
+                        <div id="content">none</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <a href="./index.html">
+            <div id="home">
+                <img src="img/home.png" width="75" height="75" />
+            </div>
+        </a>
+        <a href="./search.html">
+            <div id="search">
+                <img src="img/search.png" width="75" height="75" />
+            </div>
+        </a>
+        <a href="./user.html">
+            <div id="user">
+                <img src="img/user.png" width="75" height="75" />
+            </div>
+        </a>
+        <a href="./index.html">
+            <div id="dm">
+                <img src="img/dm.png" width="75" height="75" />
+            </div>
+        </a>
+        <a href="./index.html">
+            <div id="setting">
+                <img src="img/setting.png" width="75" height="75" />
+            </div>
+        </a>
+    </div>
+</body>
+<style>
+.user_info{
+    display: flex;
+}
+.schedule>.class{
+    display: flex;
+    border:1px solid #7f7f7f;
+    justify-content: center;
+}
+.class:hover{
+    background-color: #ddd;
+}
+.class>.date{
+    width:20%;
+    border:1px solid #7f7f7f;
+}
+.class>.teach{
+    width:70%;
+    border:1px solid #7f7f7f;
+    
+}
+</style>
+</html>
