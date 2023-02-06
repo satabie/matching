@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    /* margin: auto; */
+    background-color: #dffff4;
+}
+
+.header > a > div{
+    display: flex;
+    justify-content: center;
+}
+
+.header > a > div:hover{
+    background-color: #7fffd4;
+}
+
+.logo{
+    width:140px;
+    height:100px;
+}
+
+.user{
+    width:70px;
+    height:70px;
+}
