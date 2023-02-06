@@ -1,1 +1,1 @@
-# 津山高専5-C, e-business後期課題
+# 津山高専5-C, e-business後期グループ課題
