@@ -3,10 +3,26 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="./main.css">
     <title></title>
 </head>
 <body>
-    <iframe class="header" width="auto" height="120" name="menu" src="header.html"></iframe>
+    <!-- <iframe class="header" width="auto" height="120" name="menu" src="header.html"></iframe> -->
+    <div class="header">
+        <a href="./index.html">
+            <div class="logo">
+            <!-- 56,40 -->
+                <img src="img/logo.png" width="140" height="100" />
+            </div>
+        </a>
+        <a href="./register.html">
+            <div class="user" id="user">
+                <img src="img/user.png" width="50" height="50" />
+            </div>
+        </a>
+    </div>
     <div class="main">
         <h1>ああああああああああああああああ</h1>
         あああああああああああああああああああああああああ<br>
@@ -81,24 +97,33 @@
         あああああああああああああああああああああああああ<br>
         あああああああああああああああああああああああああ<br>
     </div>
-    <iframe class="menu" width="auto" height="120" name="menu" src="menu.html"></iframe>
-    
+    <!-- <iframe class="menu" width="auto" height="120" name="menu" src="menu.html"></iframe> -->
+    <div class="menu">
+        <a href="./index.html">
+            <div id="home">
+                <img src="img/home.png" width="75" height="75" />
+            </div>
+        </a>
+        <a href="./search.html">
+            <div id="search">
+                <img src="img/search.png" width="75" height="75" />
+            </div>
+        </a>
+        <a href="./user.html">
+            <div id="user">
+                <img src="img/user.png" width="75" height="75" />
+            </div>
+        </a>
+        <a href="./index.html">
+            <div id="dm">
+                <img src="img/dm.png" width="75" height="75" />
+            </div>
+        </a>
+        <a href="./index.html">
+            <div id="setting">
+                <img src="img/setting.png" width="75" height="75" />
+            </div>
+        </a>
+    </div>
 </body>
-<style>
-    iframe{
-        border:none;
-        width:100%;
-    }
-    .header{
-        position:sticky;
-        top:0;
-    }
-    .menu{
-        position:sticky;
-        bottom:0;
-    }
-    .main{
-        min-height:100vh;
-    }
-</style>
 </html>
